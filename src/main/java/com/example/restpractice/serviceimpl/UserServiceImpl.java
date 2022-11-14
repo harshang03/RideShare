@@ -1,7 +1,7 @@
 package com.example.restpractice.serviceimpl;
 
-import com.example.restpractice.dbTables.User;
 import com.example.restpractice.dao.UserDao;
+import com.example.restpractice.dbTables.User;
 import com.example.restpractice.passEnc.EncryptPassword;
 import com.example.restpractice.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

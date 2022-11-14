@@ -2,7 +2,6 @@ package com.example.restpractice.services;
 
 import com.example.restpractice.dbTables.AvailableForRide;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 public interface RideService {

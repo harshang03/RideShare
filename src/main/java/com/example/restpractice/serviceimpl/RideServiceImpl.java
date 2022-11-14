@@ -1,17 +1,13 @@
 package com.example.restpractice.serviceimpl;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
+
 import com.example.restpractice.dao.AvailableForRideDao;
 import com.example.restpractice.dao.ConformRideDao;
 import com.example.restpractice.dbTables.AvailableForRide;
 import com.example.restpractice.dbTables.ConformRide;
 import com.example.restpractice.services.RideService;
-import org.hibernate.Hibernate;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.provider.HibernateUtils;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.Optional;
 

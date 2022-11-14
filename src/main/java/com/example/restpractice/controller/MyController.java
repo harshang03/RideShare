@@ -6,12 +6,11 @@ import com.example.restpractice.dbTables.User;
 import com.example.restpractice.passEnc.EncryptPassword;
 import com.example.restpractice.services.FeedbackService;
 import com.example.restpractice.services.RideService;
+import com.example.restpractice.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.example.restpractice.services.UserService;
 
 import java.util.List;
 

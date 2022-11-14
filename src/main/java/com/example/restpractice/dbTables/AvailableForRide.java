@@ -1,6 +1,8 @@
 package com.example.restpractice.dbTables;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class AvailableForRide {
