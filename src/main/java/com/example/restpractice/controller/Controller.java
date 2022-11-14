@@ -15,13 +15,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-public class MyController {
+public class Controller {
 
 	 @Autowired
 	 private UserService userService;
 	 @Autowired
 	 private FeedbackService feedbackService;
-
 	 @Autowired
 	 private RideService rideService;
 
@@ -34,10 +33,7 @@ public class MyController {
 		  } else {
 				return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 		  }
-
 	 }
-
-
 	 @GetMapping("/user")
 	 public List<User> user() {
 		  System.out.println("user calling...");
